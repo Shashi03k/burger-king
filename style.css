@@ -1,0 +1,56 @@
+/* Updated Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* Blue & White Gradient */
+    color: white;
+}
+
+#orderDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+#foodImageContainer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#foodImageContainer img {
+    width: 220px; /* Increased size */
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+/* Order Button Styling */
+#orderBtn {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* ✅ Order ID ko "Order Food" button ke exactly saamne, top-right corner pe shift kiya */
+#orderId {
+    font-size: 14px;
+    font-weight: bold;
+    color: yellow;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
